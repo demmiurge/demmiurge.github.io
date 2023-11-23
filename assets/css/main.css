@@ -116,13 +116,13 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 16pt;
+		font-size: 14pt;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -150,8 +150,8 @@ input, select, textarea {
 	body, input, select, textarea {
 		font-family: "Lato", Helvetica, sans-serif;
 		font-weight: 300;
-		font-size: 1.3rem;
-		line-height: 2.375;
+		font-size: 1.2rem;
+		line-height: 2;
 	}
 
 	a {
@@ -2819,13 +2819,13 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				width: 3.25rem;
-				height: 3.25rem;
+				width: 5.25rem;
+				height: 5.25rem;
 				line-height: 3.25rem;
 				display: inline-block;
 				text-align: center;
 				border-radius: 100%;
-				font-size: 2.25rem;
+				font-size: 3.25rem;
 			}
 
 		ul.icons.alt li .icon:before {
@@ -2893,6 +2893,7 @@ input, select, textarea {
 
 	ul.icons li a.icon:hover:before {
 		color: #18bfef;
+		font-size: 3.25rem; /*hover icon change size*/
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2959,6 +2960,7 @@ input, select, textarea {
 			header.major > p {
 				margin-top: 0;
 				text-align: center;
+				font-size: 1.2rem;
 			}
 
 			header.major > .date {
@@ -3789,8 +3791,14 @@ input, select, textarea {
 				margin-top: -2rem;
 			}
 
-			#main > .post header.major > h1, #main > .post header.major h2 {
+			#main > .post header.major > h1 {
 				font-size: 4rem;
+				line-height: 1.1;
+				margin: 0 0 2rem 0;
+			}
+
+			#main > .post header.major h2 {
+				font-size: 3rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
@@ -3925,7 +3933,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > article .image {
-					max-width: 25rem;
+					max-width: 15rem;
 					margin-left: auto;
 					margin-right: auto;
 				}
@@ -4122,7 +4130,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #18bfef;		
 		}
 
 		#footer ul.icons.alt li .icon:before {
