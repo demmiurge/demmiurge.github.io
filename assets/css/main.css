@@ -100,6 +100,7 @@ input, select, textarea {
 
 	body {
 		background-color: #1e252d;
+		transition: linear-gradient(#cdeaf3, #668e9b); 
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -110,7 +111,7 @@ input, select, textarea {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
-			transition: none !important;
+			transition: linear-gradient(0deg, #cdeaf3, #668e9b) 1s ease; 
 		}
 
 /* Type */
@@ -3240,6 +3241,7 @@ input, select, textarea {
 			height: 100%;
 			background-color: #cdeaf3/*, linear-gradient(0deg, #cdeaf3, #668e9b);*/;
 			/*background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/pic05.jpg");*/
+			transition: linear-gradient(0deg, #cdeaf3, #668e9b); 
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
